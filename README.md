@@ -9,7 +9,7 @@ Complete validation of dates, times and datetimes for Rails 3.x and
 ActiveModel.
 
 This is a Rails 4.2-compatible fork of
-[ jc-validates_timeliness gem] by [johncarney].
+[ validates_timeliness gem] by [johncarney].
 which is a fork of the
 [original validates_timeliness gem][original] by [Adam Meehan][adzap].
 
@@ -29,7 +29,7 @@ which is a fork of the
 ## Installation
 
     # in Gemfile
-    gem 'jc-validates_timeliness'
+    gem 'validates_timeliness'
 
     # Run bundler
     $ bundle install
@@ -315,8 +315,8 @@ Copyright (c) 2008 Adam Meehan, released under the MIT license
 [plugin-parser]:  http://github.com/adzap/validates_timeliness/wiki/Plugin-Parser
 [original]:       http://github.com/adzap/validates_timeliness
 [contributors]:   http://github.com/johncarney/validates_timeliness/contributors
-[gem-badge]:      https://badge.fury.io/rb/jc-validates_timeliness.svg
-[gem]:            http://badge.fury.io/rb/jc-validates_timeliness
+[gem-badge]:      https://badge.fury.io/rb/validates_timeliness.svg
+[gem]:            http://badge.fury.io/rb/validates_timeliness
 [build-badge]:    https://travis-ci.org/johncarney/validates_timeliness.svg?branch=master
 [build]:          https://travis-ci.org/johncarney/validates_timeliness
 [coverage-badge]: https://img.shields.io/coveralls/johncarney/validates_timeliness.svg
